@@ -1,0 +1,207 @@
+body{
+    background-color: #010f12;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+
+.hero{
+    width: 90%;
+    margin: auto;
+}
+
+.hero-header{
+    border: 1px solid transparent;
+    background-image: url(../Background2.jpeg);
+    box-shadow: rgb(0, 0, 0) 0px 0px 15px 5px;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    margin-bottom: 100px;
+}
+
+.hero-headerNav ul{
+ display: block;
+ text-align: right;
+}
+
+.hero-headerNav ul li{
+    border-radius: 100px;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: rgb(105, 105, 105) 0px 0px 15px 5px;
+    text-shadow: rgba(255, 255, 255, 0.897) 0px 0px 3px;
+}
+
+.hero-headerNav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.hero-header .title{
+    border-radius: 100px;
+    box-shadow: rgb(105, 105, 105) 0px 0px 15px 5px;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 65px;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    width: 35%;
+    margin: 100px auto 0px auto;
+    box-sizing: border-box;
+    letter-spacing: 8px;
+    text-shadow: rgba(255, 255, 255, 0.74) 0px 0px 3px, #1f372d -2px 2px 2px, #274237 -3px 3px 2px, #2c473c -4px 4px 2px;
+}
+
+.hero-header .quotes{
+    margin: 125px 15px 0 0;
+    text-shadow: rgba(255, 255, 255, 0.74) 0px 0px 4px;
+    text-align: right;
+    font-style: italic;
+    text-decoration: dotted;
+}
+
+.hero-main {
+    width: 80%;
+    margin: auto;
+}
+
+.hero-main .subtitle{
+    text-transform: uppercase;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    display: block;
+    border-radius: 50px;
+    
+    text-shadow:  rgba(255, 255, 255, 0.74) 0px 0px 3px, #111f19 -2px 2px 2px, #192b24 -3px 3px 2px, #1c2e27 -4px 4px 2px;
+    Background-image: linear-gradient( to top, rgb(0, 0, 0),rgba(0, 0, 0, 0.349) );
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 0px 15px 5px;
+}
+
+.hero-mainSection1 article p::first-letter{
+    font-size: 25px;
+}
+
+.hero-mainSection1 article{
+    text-align: center;
+    margin-bottom: 25px;
+    overflow: auto;
+
+}
+.hero-mainSection1 article img{
+    overflow: auto;
+}
+.article1{
+    margin-top: 50px;
+}
+
+.article1, .article2, .article3{
+    Background-image: linear-gradient( to right top, rgb(0, 0, 0), rgba(0, 0, 0, 0.308),rgba(0, 0, 0, 0.164));
+}
+
+.Card1, .Card2, .Card3{
+    display: block;
+    width: 33%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.Card1, .Card3{
+    float: left;
+    box-shadow: rgb(0, 0, 0)0 0px 3px 3px;
+}
+
+.Card2{
+    float: right;
+    box-shadow: rgb(0, 0, 0)0 0px 3px 3px;
+}
+.phrase1, .phrase2, .phrase3{
+    margin: 100px 50px 0px 50px;
+    text-shadow: rgba(255, 255, 255, 0.74) 0px 0px 3px;
+    text-indent: 40px;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.hero-mainSection2 article{
+    background-image: url(../Cards/Card5-5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 150px;
+}
+
+.hero-mainSection2 article{
+    box-shadow: rgba(0, 0, 0, 0.452)0 0px 5px 2px;
+}
+
+.hero-mainSection2 article p{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.582);
+    padding: 100px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.76) 0px 0px 4px 5px;
+    text-shadow: rgba(255, 255, 255, 0.74) 0px 0px 2px;
+    text-align: center;
+    font-style: italic;
+}
+
+
+.PhotoPeople{
+    display: inline;
+    background-image: url(../People/pexels-photo-2050994.jpeg);
+    padding: 70px;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    box-shadow: rgb(0, 0, 0) 0px 0px 2px 2px;
+}
+
+.Comments{
+    
+    text-transform: uppercase;
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+    display: block;
+    border-radius: 50px;
+    text-shadow:  rgba(255, 255, 255, 0.74) 0px 0px 3px, #111f19 -2px 2px 2px, #192b24 -3px 3px 2px, #1c2e27 -4px 4px 2px;
+    Background-image: linear-gradient( to top, rgb(0, 0, 0),rgba(0, 0, 0, 0.349) );
+    box-shadow: rgba(0, 0, 0, 0.473) 0px 0px 15px 5px;
+
+    margin: 120px auto 50px auto;
+}
+
+
+.hero-footer{
+    background-color: rgba(0, 0, 0, 0.24);
+    overflow: auto;
+    margin-top: 70px;
+}
+
+
+.hero-footer ul{
+    display: block;
+
+}
+
+.hero-footer ul li{
+    display: inline-block;
+}
+
+.SocialNetwork{
+    float: left;
+    width: 30px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 100px;
+    box-shadow: white 2px 2px 4px 2px;
+    box-sizing: border-box;
+}
